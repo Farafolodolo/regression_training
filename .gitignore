@@ -47,3 +47,8 @@ Thumbs.db
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints
+
+# Excluir archivos generados dentro de artifacts/ pero mantener la carpeta
+artifacts/*
+!artifacts/.gitkeep
+
